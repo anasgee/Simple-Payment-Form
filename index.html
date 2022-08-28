@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Qwitcher+Grypen&display=swap" rel="stylesheet">
+
+    <title>Payment Form </title>
+</head>
+
+
+<body>
+<header>
+<h1>Raza Pharmacy</h1>
+    <p>Online Payment Form</p>
+</header>
+<form action="mailto:anasraza6096@gmail.com">
+        <fieldset>
+        <legend>Select bank Type</legend>
+        
+        
+        <select name="Select-bank-Account" id="Select-Bank ">
+        <option value="Bank">---Select Bank--- </option>
+        <option value="HBL">
+            HBL
+        </option>
+        <option value="BOP">BOP</option>
+        <option value="Meezan">MEEZAN</option>
+        <option value="Alfalah">Alfalah</option>
+        </select>
+        </fieldset>
+        <fieldset>
+            <legend>First Name</legend>
+     <input type="text" name="first-name" id="F-Name" placeholder="Anas">
+</fieldset>
+        <fieldset>
+            <legend>Last Name</legend>
+     <input type="text" name="last-name" id="L-Name" placeholder="Raza">
+</fieldset>
+        <fieldset>
+            <legend>Account Number</legend>
+     <input type="number" name="Account-Number" id="Account-Number" placeholder="HABBPK1234567890">
+</fieldset>
+        <fieldset>
+            <legend>PIN Code</legend>
+     <input type="number" name="Pin-Code" id="PIN-Code" placeholder="000000">
+</fieldset>
+</fieldset>
+<fieldset>
+    <legend>Price</legend>
+<input type="number" name="Price" id="Price" placeholder="Enter price in numbers">
+</fieldset><br>
+<fieldset><legend>Select Date:</legend>
+<input class="date" type="date" name="date" id="Date">
+</fieldset>
+<p class="note">Please read your Credentials Before Submitting</p>
+<input type="submit"class="btn" name="Pay-Now"value="Pay Now" id="Pay-Now">
+
+<input type="reset"class="btn" name="Reset"value="Reset" id="Reset">
+
+    </form>
+
+</body>
+</html>
